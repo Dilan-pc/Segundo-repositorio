@@ -1,0 +1,23 @@
+1. Estructura Nodo
+Cada nodo contiene un dato y un puntero siguiente que permite enlazarlo con el nodo inferior.
+
+2. Puntero TOP
+top apunta siempre al nodo que esta en la cima de la pila.
+
+3. Constructor
+La pila inicia con top = NULL, indicando que no existen nodos.
+
+4. push()
+se reserva memoria con new, se guarda el dato se enlaza el nuevo nodo con el antiguo .
+
+5. pop()
+se guarda temporalmente el nodo superior, se obtiene su dato, top avanza al siguiente nodo y se libera la memoria con delete.
+
+6. peek()
+Devuelve el dato de top sin eliminar el nodo
+
+7. Destructo
+Recorre la pila mediante pop() para liberar todo los nodos antes de destruir el objeto.
+
+8. main()
+Crea la pila y ejecuta operaciones para comprobar el comportamiento LIFO.

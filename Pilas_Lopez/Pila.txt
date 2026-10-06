@@ -1,0 +1,32 @@
+1. Libreria
+include <iostream> permite utilizar cout para mostrar informacion en pantalla
+
+2. Capacidad
+const int Max = 5 establece que el arreglo puede almacenar como maximo cinco elementos
+
+3. Arreglo
+int datos[MAX] representa el espacio donde se almacenan los elementos.
+
+4. Top
+int top identifica la posicion del elemento superior. Se inicia -1 porque la pila esta vacia.
+
+5. Constructor
+Pila() asigna top = -1 al crear el objeto.
+
+6. estaVacia()
+Devuelve true cuando top es -1.
+
+7. estaLlena()
+Devuelve true cuando top alcanza MAX -1.
+
+8. push()
+Primera verifica que no exista overflow. Despues incrementa top y guarda el nuevo valor.
+
+9. pop()
+Verifica que la pila no este vacia. Guarda elemento superior, decrementa top y devuelve el calor retirado.
+
+10. peek()
+Consulta datos[top] sin modificar la pila.
+
+11. main()
+Crea la pila y ejecuta una secuencia de push, peek y pop para demostrar LIFO.
