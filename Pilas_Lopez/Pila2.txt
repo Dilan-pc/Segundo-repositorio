@@ -8,7 +8,7 @@ top apunta siempre al nodo que esta en la cima de la pila.
 La pila inicia con top = NULL, indicando que no existen nodos.
 
 4. push()
-se reserva memoria con new, se guarda el dato se enlaza el nuevo nodo con el antiguo .
+se reserva memoria con new, se guarda el dato se enlaza el nuevo nodo con el antiguo top y finalmente top pasa a apuntar al nuevo nodo.
 
 5. pop()
 se guarda temporalmente el nodo superior, se obtiene su dato, top avanza al siguiente nodo y se libera la memoria con delete.
